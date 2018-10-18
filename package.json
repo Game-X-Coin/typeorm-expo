@@ -1,20 +1,20 @@
 {
-  "name": "typeorm",
+  "name": "typeorm-expo",
   "private": false,
   "version": "0.2.6",
   "description": "Data-Mapper ORM for TypeScript, ES7, ES6, ES5. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, MongoDB databases.",
   "license": "MIT",
   "readmeFilename": "README.md",
   "author": {
-    "name": "Umed Khudoiberdiev",
-    "email": "pleerock.me@gmail.com"
+    "name": "GXC",
+    "email": "dev@gamexcoin.io"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/typeorm/typeorm.git"
+    "url": "https://github.com/Game-X-Coin/typeorm-expo.git"
   },
   "bugs": {
-    "url": "https://github.com/typeorm/typeorm/issues"
+    "url": "https://github.com/Game-X-Coin/typeorm-expo/issues"
   },
   "tags": [
     "orm",
