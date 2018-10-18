@@ -2,7 +2,11 @@
  */
 var Alias = /** @class */ (function () {
     function Alias(alias) {
-        Object.assign(this, alias || {});
+        const source = alias || {};
+        
+         for (const prop of Object.getOwnPropertyNames(source)) {
+            this[prop] = source[prop];
+        }
     }
     Object.defineProperty(Alias.prototype, "target", {
         get: function () {
